@@ -40,7 +40,7 @@ class StudiesController < ApplicationController
     respond_to do |format|
       if @study.save
 		if not @study.autoSetLikes  # do after saving, because we don't want to save guesses
-			@study.adjustThreshold
+			Study.adjustThreshold
 		end
 		puts 'Create'
 		puts @study.likes
@@ -59,7 +59,7 @@ class StudiesController < ApplicationController
     respond_to do |format|
       if @study.update(study_params)
 		if not @study.autoSetLikes # do after saving, because we don't want to save guesses
-			@study.adjustThreshold
+			Study.adjustThreshold
 		end
         format.html { redirect_to @study, notice: 'Study was successfully updated.' }
         format.json { render :show, status: :ok, location: @study }
