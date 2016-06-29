@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  height: 9.99
-  weight: 9.99
-  likes: 
+  height: 72
+  weight: 190
+  likes: 'dogs'
 
 two:
-  height: 9.99
-  weight: 9.99
-  likes: 
+  height: 60
+  weight: 110
+  likes: 'cats'

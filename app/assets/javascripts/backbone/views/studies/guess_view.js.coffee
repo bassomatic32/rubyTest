@@ -33,6 +33,7 @@ class Survey.Views.Studies.GuessView extends Backbone.View
 		console.log "Saving"
 		@study.save {},
 			success: =>
+				# console.log @study
 				# show the guess
 				if @study.get('likes')?
 					msg = @messageMap[@study.get('likes')]

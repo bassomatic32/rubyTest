@@ -46,4 +46,7 @@ class StudiesControllerTest < ActionController::TestCase
 
     assert_redirected_to studies_path
   end
+
+
+ 
 end
