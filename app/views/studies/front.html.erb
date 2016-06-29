@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>There are only two pets in this world. Let me guess what you like.</h1>
+
+<table id='guessBody'>
+
+
+  <tbody>
+	  <tr>
+		  <td>Height: <input type='number' pattern='\d' id='height' /> (inches)</td>
+		  <td>&nbsp;</td>
+		  <td>Weight: <input type='number' pattern='\d' id='weight' /> (lbs)</td>
+	  </tr>
+	  <tr>
+		  <td colspan=3 id='guess'>Guess</td>
+	  </tr>
+	  <tr id='confirm'>
+		  <td>Correct?</td>
+		  <td><button id='Yes'>Yes</button></td>
+		  <td><button id='No'>No</button></td>
+		  <td><div id='correct'>Great!</div><div id='incorrect'>Darn!</div>
+		  <td><button id='clear'>Clear</button></td>
+	  </tr>
+  </tbody>
+</table>
+
+<br>

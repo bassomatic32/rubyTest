@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   resources :studies
 
+  root 'studies#front'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

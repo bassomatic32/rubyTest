@@ -30,6 +30,8 @@ gem 'therubyracer'
 
 gem 'less-rails-bootstrap'
 
+gem 'rails-backbone'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
